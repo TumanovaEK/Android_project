@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Сборник Рецептов</string>
+    <string name="username_hint">Логин</string>
+    <string name="password_hint">Пароль</string>
+    <string name="login_button">Войти</string>
+    <string name="author_info">Сделала Екатерина Туманова РИБО-02-22</string>
+    <string name="ic_login_image">login image</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/abstract_pattern_design_background_2007">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя Рецепта"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/edit_text_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ингредиенты"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Способ Приготовления"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить рецепт"
+        android:padding="8dp"/>
+</LinearLayout>
